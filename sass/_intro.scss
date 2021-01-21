@@ -10,6 +10,10 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3,10vw);
         gap: 1rem;
+        @media(max-width:1000px){
+            grid-template-rows: repeat(3,20vw);
+
+        }
     }
     &-picture{
         border-radius: 5px;
