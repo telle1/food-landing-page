@@ -19,6 +19,9 @@ body{
 
 .container{
     padding: 0 10rem;
+    @media(max-width:1000px){
+        padding: 0 3rem;
+    }
 }
 
 .container > section {
@@ -26,6 +29,7 @@ body{
 }
 
 .btn{
+    display: inline-block;
     padding: 1rem;
     font-family: inherit;
     font-size: inherit;

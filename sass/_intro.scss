@@ -8,7 +8,7 @@
     &-pictures{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(3,10vw);
         gap: 1rem;
     }
     &-picture{
@@ -25,13 +25,24 @@
         margin: 2rem 0;
         list-style: none;
         li {
-            color: $color-primary;
-            // border: 1px solid red;
             &::before{
-                content: '* '
+                content: '* ';
+                color: $color-primary;
+                display: inline-block;
+                transform: translateY(10%);
+                margin-right: 1rem;
+                @media(max-width:1000px){
+                    display: none;
+                }
             }
             margin-bottom: 1rem;
         }
+    }
+    @media(max-width:1000px){
+        // border: 1px solid red;
+        padding: $section-padding-small;
+        flex-direction: column;
+        text-align: center;
     }
 
 }

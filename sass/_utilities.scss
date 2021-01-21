@@ -12,7 +12,10 @@
     width: 4rem;
     height: 1px;
     border: 1px solid $color-primary;
-    margin-bottom: 1rem;
+    margin-bottom:  1rem;
+    @media(max-width:1000px){
+        margin: 1rem auto 3rem;
+    }
 
 }
 

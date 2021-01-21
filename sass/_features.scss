@@ -3,14 +3,23 @@
     url(../images/banner.jpg) center center/cover;
     padding: $section-padding;
     color: white;
-    // height: 100vh;
+    @media(max-width:1000px){
+        padding: $section-padding-small;
+    }
 }
 
 .feature-wrapper{
     display: grid;
     grid-gap: 3rem;
-    grid-template-columns: repeat(3, 1fr);
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     align-items: start;
+    @media(max-width:1000px){
+        // align-items: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
 }
 
 .feature{
@@ -18,13 +27,15 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: min-content 1fr;
+    @media(max-width:1000px){
+        text-align: center;
+    }
     // align-items: start;
 
     &-icon{
         grid-row: 1 / span 2;
+        @media(max-width:1000px){
+            visibility: hidden;
+        }
     }
-    &-p{
-        // border:1px solid blue;
-    }
-
 }
