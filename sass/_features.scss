@@ -1,0 +1,30 @@
+.features{
+    background: linear-gradient(rgba(155, 154, 154, 0.5), rgba(155, 154, 154, 0.5)),
+    url(../images/banner.jpg) center center/cover;
+    padding: $section-padding;
+    color: white;
+    // height: 100vh;
+}
+
+.feature-wrapper{
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+}
+
+.feature{
+    // border:1px solid red;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: min-content 1fr;
+    // align-items: start;
+
+    &-icon{
+        grid-row: 1 / span 2;
+    }
+    &-p{
+        // border:1px solid blue;
+    }
+
+}

@@ -4,114 +4,244 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luxure</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <section class="hero">
+    <section class="hero">
+      <div class="hero-wrapper">
         <div class="hero-description">
-            <h1 class="hero-header">
-                Your next dream stay.
-            </h1>
-            <p class="hero-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex eligendi,
-                dolorum culpa cum odit assumenda.
-            </p>
-            <button class="btn btn-theme">Explore rooms</button>
-        </div>  
+          <h1 class="hero-header">You deserve it.</h1>
+          <p class="hero-text">
+            The nation's best buffet to satisfy any of your cravings.
+          </p>
+          <button class="btn btn-fade">Reserve now</button>
+        </div>
 
         <form action="#" class="hero-form">
-            <h2 class="heading-secondary">
-                Book a room
-            </h2>
-            <p class="hero-text hero-text-grey">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, laborum.
+          <div class="hero-form-wrapper">
+            <h2 class="heading-secondary color-p">Reserve your meal</h2>
+            <p class="hero-text hero-text-grey mb-small">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos,
+              laborum.
             </p>
-            <input type="text" class="hero-input" placeholder="Name"> 
-            <input type="text" class="hero-input" placeholder="Email">
-            <input type="text" class="hero-input" placeholder="Phone Number">
-            <input type="text" class="hero-input" placeholder="Room type">
-            <input type="date" class="hero-input">
-            <button class="btn btn-theme">Reserve</button>
+            <div class="hero-input-wrapper">
+              <input type="text" class="hero-input" placeholder="Name" />
+              <input type="text" class="hero-input" placeholder="Email" />
+              <input
+                type="text"
+                class="hero-input"
+                placeholder="Phone Number"
+              />
+              <input
+                type="text"
+                class="hero-input"
+                placeholder="Number of people"
+              />
+              <input type="date" class="hero-input" />
+              <button class="btn btn-theme">Reserve</button>
+            </div>
+          </div>
         </form>
-
-
-      </section>
+      </div>
+    </section>
+    <div class="container">
       <section class="intro">
         <div class="intro-pictures">
-            <img src="" alt="" class="intro-picture">
-            <img src="" alt="" class="intro-picture">
-            <img src="" alt="" class="intro-picture">
-            <img src="" alt="" class="intro-picture">
-            <img src="" alt="" class="intro-picture">
-            <img src="" alt="" class="intro-picture">
+          <figure>
+            <img
+              src="images/intro-1.jpg"
+              alt=""
+              class="intro-picture intro-picture-1"
+            />
+          </figure>
+          <img
+            src="images/intro-2.jpg"
+            alt=""
+            class="intro-picture intro-picture-2"
+          />
+          <img
+            src="images/intro-3.png"
+            alt=""
+            class="intro-picture intro-picture-3"
+          />
+          <img
+            src="images/intro-4.png"
+            alt=""
+            class="intro-picture intro-picture-4"
+          />
+          <img
+            src="images/intro-5.png"
+            alt=""
+            class="intro-picture intro-picture-5"
+          />
+          <img
+            src="images/intro-6.png"
+            alt=""
+            class="intro-picture intro-picture-6"
+          />
         </div>
         <div class="intro-description">
-            <h2 class="heading-secondary"></h2>
-            <p class="intro-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci error voluptatem magni incidunt! Maxime, doloribus.</p>
-            <button class="btn btn-theme">Browse available rooms</button>
+          <h2 class="heading-secondary color-p">Delicious, quality meals</h2>
+          <div class="heading-underline">&nbsp;</div>
+          <p class="intro-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            error voluptatem magni incidunt! Maxime, doloribus.
+          </p>
+          <ul class="intro-list">
+            <li>Breakfast</li>
+            <li>Brunch</li>
+            <li>Lunch</li>
+            <li>Dinner</li>
+            <li>Dessert</li>
+          </ul>
+          <button class="btn btn-fade">Reserve</button>
         </div>
       </section>
-      <section class="cards">
-          <div class="card">test</div>
-          <div class="card">2</div>
-          <div class="card">3</div>
-          <div class="card">4</div>
-          <div class="card">5</div>
-          <div class="card">6</div>
-      </section>
-      <section class="gallery">
-          gallery
-      </section>
-      <footer class="footer">
-        <div class="footer-feature">
-          <i>icon</i>
-          <h3>heading</h3>
-          <p>
+    </div>
+
+    <section class="features">
+      <h2 class="heading-secondary color-w text-center">Any meal, any time</h2>
+      <div class="feature-wrapper">
+        <div class="feature">
+          <i class="feature-icon">iconfsdfsf</i>
+          <h3 class="heading-tertiary feature-heading">All You Can Eat</h3>
+          <p class="feature-p">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
             doloribus ad reprehenderit nemo! Impedit, quam.
           </p>
         </div>
-        <div class="footer-feature">
-          <i>icon</i>
-          <h3>heading</h3>
-          <p>
+        <div class="feature">
+          <i class="feature-icon">icon</i>
+          <h3 class="heading-tertiary feature-heading">Kids Half Off</h3>
+          <p class="feature-p">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quos
             error in quidem, voluptas illum.
           </p>
         </div>
-        <div class="footer-feature">
-          <i>icon</i>
-          <h3>heading</h3>
-          <p>
+        <div class="feature">
+          <i class="feature-icon">icon</i>
+          <h3 class="heading-tertiary feature-heading">Happy Hour</h3>
+          <p class="feature-p">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Exercitationem iusto, deserunt placeat consequatur sequi sint.
           </p>
         </div>
-        <div class="footer-feature">
-          <i>icon</i>
-          <h3>heading</h3>
-          <p>
+        <div class="feature">
+          <i class="feature-icon">icon</i>
+          <h3 class="heading-tertiary feature-heading">Reserve Ahead</h3>
+          <p class="feature-p">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
             corrupti reprehenderit, adipisci natus ratione alias?
           </p>
         </div>
-        <div class="footer-feature">
-          <i>icon</i>
-          <h3>heading</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est illo,
-            culpa laudantium saepe quasi numquam.
-          </p>
+      <div class="feature">
+        <i class="feature-icon">icon</i>
+        <h3 class="heading-tertiary feature-heading">Weekend Deals</h3>
+        <p class="feature-p">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est illo,
+          culpa laudantium saepe quasi numquam.
+        </p>
+      </div>
+      <div class="feature">
+        <i class="feature-icon">></i>
+        <h3 class="heading-tertiary feature-heading">Vegan Choices</h3>
+        <p class="feature-p">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+          hic esse rerum iusto. Rerum, corporis!
+        </p>
+      </div>
+    </div>
+
+    </section>
+
+    <div class="container">
+      <section class="cards">
+        <h2 class="heading-secondary color-p text-center">Favorites</h2>
+        <div class="card-wrapper">
+          <div class="card">
+            <!-- <figure class="card_figure"> -->
+            <img src="images/card-1.png" alt="Favorite 1" class="card_img" />
+            <!-- </figure> -->
+            <h2 class="card_heading heading-tertiary">Strawberry Crepe</h2>
+            <p class="text-center card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Perferendis, blanditiis?
+            </p>
+            <button class="btn btn-fade card_button">Reserve</button>
+          </div>
+          <div class="card">
+            <!-- <figure class="card_figure"> -->
+            <img src="images/card-2.png" alt="Favorite 2" class="card_img" />
+            <!-- </figure> -->
+            <h2 class="card_heading heading-tertiary">Arugula Salad</h2>
+            <p class="text-center card_p">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Dignissimos, iusto.
+            </p>
+            <button class="btn btn-fade card_button">Reserve</button>
+          </div>
+          <div class="card">
+            <!-- <figure class="card_figure"> -->
+            <img src="images/card-3.png" alt="Favorite 3" class="card_img" />
+            <!-- </figure> -->
+            <h2 class="card_heading heading-tertiary">Melon Dessert</h2>
+            <p class="text-center card_p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+              maiores.
+            </p>
+
+            <button class="btn btn-fade card_button">Reserve</button>
+          </div>
+          <div class="card">
+            <!-- <figure> -->
+            <img src="images/card-4.png" alt="Favorite 1" class="card_img" />
+            <!-- </figure> -->
+            <h2 class="card_heading heading-tertiary">Eggplant Delight</h2>
+            <p class="text-center card_p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea,
+              enim?
+            </p>
+
+            <button class="btn btn-fade card_button">Reserve</button>
+          </div>
+          <div class="card">
+            <!-- <figure> -->
+            <img src="images/card-5.png" alt="Favorite 1" class="card_img" />
+            <!-- </figure> -->
+            <h2 class="card_heading heading-tertiary">Classic Breakfast</h2>
+            <p class="text-center card_p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+              rerum.
+            </p>
+
+            <button class="btn btn-fade card_button">Reserve</button>
+          </div>
+          <div class="card">
+            <!-- <figure> -->
+            <img src="images/card-6.png" alt="Favorite 1" class="card_img" />
+            <!-- </figure> -->
+            <h2 class="card_heading heading-tertiary">Butternut Soup</h2>
+            <p class="text-center card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Exercitationem, incidunt.
+            </p>
+            <button class="btn btn-fade card_button">Reserve</button>
+          </div>
         </div>
-        <div class="footer-feature">
-          <i>icon</i>
-          <h3>heading</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-            hic esse rerum iusto. Rerum, corporis!
-          </p>
-        </div>
-      </footer>
+      </section>
+
+      <section class="gallery">
+        <h2 class="heading-secondary color-p text-center">Something for everyone</h2>
+        <div class="gallery-wrapper">
+    
+      </div>
+      </section>
+      <footer class="footer"></footer>
     </div>
   </body>
 </html>
