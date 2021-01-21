@@ -158,7 +158,10 @@ input[type="date"] {
   .intro figure {
     grid-row: 2 / 4;
     grid-column: 2 / 4; }
+  .intro-text {
+    font-size: 2rem; }
   .intro-list {
+    font-size: 2rem;
     margin: 2rem 0;
     list-style: none; }
     .intro-list li {
@@ -216,12 +219,17 @@ input[type="date"] {
 .gallery-wrapper {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(7, 6vw);
-  grid-gap: 1.5rem;
-  padding: 1.5rem; }
+  grid-template-rows: repeat(7, 5vw);
+  grid-gap: 1rem; }
+  @media (max-width: 1000px) {
+    .gallery-wrapper {
+      grid-template-rows: repeat(7, 8vw); } }
 
 .gallery {
   padding: 7rem 0; }
+  @media (max-width: 600px) {
+    .gallery {
+      padding: 2rem 1rem; } }
   .gallery-item-1 {
     grid-row: 1 / 3;
     grid-column: 1 / 3; }
